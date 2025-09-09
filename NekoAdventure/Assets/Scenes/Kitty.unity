@@ -410,7 +410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd526ec604a629944aadba30bd60a1bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
-  cameraOrientationVector: {x: 0, y: 2.2, z: -4.5}
+  cameraOrientationVector: {x: 0, y: 1, z: -4}
 --- !u!1 &915892246
 GameObject:
   m_ObjectHideFlags: 0
