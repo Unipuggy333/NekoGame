@@ -5,7 +5,7 @@ public class CameraFollow : MonoBehaviour
 {
     Transform playerTransform;
         	
-    public Vector3 cameraOrientationVector = new Vector3 (0, 15, -10f);
+    public Vector3 cameraOrientationVector = new Vector3 (0, 15, -20f);
         	
 
     void Start () 
