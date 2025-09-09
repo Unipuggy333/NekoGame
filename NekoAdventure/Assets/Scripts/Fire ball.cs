@@ -1,16 +1,25 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Fireball : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+
+
+    public GameObject projectile;
+    public float LaunchVelocity = 750f;
+
+
+
+
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetButtonDown("Fire1"))
+        {
+            GameObject Launchedobject = Instantiate(projectile, transform.position, transform.rotation);
+            Launchedobject.GetComponent<Rigidbody>(). AddRelativeForce(new Vector3(0, LaunchVelocity, 0));
+        }
     }
 }
+    

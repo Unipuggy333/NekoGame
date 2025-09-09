@@ -637,6 +637,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1750115563}
+  - component: {fileID: 1750115564}
   m_Layer: 0
   m_Name: fire ball launch
   m_TagString: Untagged
@@ -659,6 +660,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 514013579}
   m_LocalEulerAnglesHint: {x: 87.943, y: 0, z: 0}
+--- !u!114 &1750115564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750115562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d3dd688368c4d048ae2d338b4913053, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Fireball
+  projectile: {fileID: 109568727209591739, guid: eb5474d50fdb9634b878b56c4ec51d1e, type: 3}
+  LaunchVelocity: 750
 --- !u!1 &1978463637 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9d23423ab35781f409810dbbc49c4544, type: 3}
@@ -676,7 +691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b8729cf2ea8a640adcaf522e878840, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::movemnt
-  speed: 0.02
+  speed: 0.09
   rotationSpeed: 2
 --- !u!136 &1978463641
 CapsuleCollider:
