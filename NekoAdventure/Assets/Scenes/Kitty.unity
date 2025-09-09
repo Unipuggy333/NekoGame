@@ -532,6 +532,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9d23423ab35781f409810dbbc49c4544, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1978463642}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9d23423ab35781f409810dbbc49c4544, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1978463643}
   m_SourcePrefab: {fileID: 100100000, guid: 9d23423ab35781f409810dbbc49c4544, type: 3}
 --- !u!4 &514013579 stripped
 Transform:
@@ -1947,6 +1950,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+<<<<<<< HEAD
 --- !u!1 &2114146018
 GameObject:
   m_ObjectHideFlags: 0
@@ -1967,11 +1971,15 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!114 &2114146019
+=======
+--- !u!114 &1978463643
+>>>>>>> 252e799e0a88614459297540f8f7246ab8eab53e
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2114146018}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2129,6 +2137,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2143187729}
   m_CullTransparentMesh: 1
+=======
+  m_GameObject: {fileID: 1978463637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be352620a3402143a5a640b9e1b0381, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Jump
+  jumpForce: 5
+>>>>>>> 252e799e0a88614459297540f8f7246ab8eab53e
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
