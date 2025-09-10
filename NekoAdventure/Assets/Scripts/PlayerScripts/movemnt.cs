@@ -1,14 +1,16 @@
+using System;
 using UnityEngine;
 
 public class movemnt : MonoBehaviour
-{ 
-     public float speed = .1f;
-     public float rotationSpeed;
+{
+    public float speed = .1f;
+    public float rotationSpeed;
+    public float JumpForce;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -25,5 +27,9 @@ public class movemnt : MonoBehaviour
         {
             transform.forward = moveDirection;
         }
-    }
+
+    } 
+   
+    
+    
 }
