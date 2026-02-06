@@ -4,13 +4,9 @@ using UnityEngine;
 public class Fireball : MonoBehaviour
 
 {
-
-
     public GameObject projectile;
-    public float LaunchVelocitz = 750f;
-
-
-
+    public float LaunchVelocity = 750f;
+    public Transform firepoint;
 
 
     // Update is called once per frame
@@ -18,8 +14,8 @@ public class Fireball : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
         {
-            GameObject Launchedobject = Instantiate(projectile, transform.position, transform.rotation);
-            Launchedobject.GetComponent<Rigidbody>(). AddRelativeForce(new Vector3(0,0,LaunchVelocitz));
+            GameObject Launchedobject = Instantiate(projectile, firepoint.position, transform.rotation);
+            Launchedobject.GetComponent<Rigidbody>(). AddRelativeForce(new Vector3(0,0,LaunchVelocity));
             
         }
 
